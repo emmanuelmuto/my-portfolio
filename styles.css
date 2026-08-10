@@ -1,0 +1,26 @@
+body{
+    color:black;
+    padding: 10%;
+    margin: auto;
+    background-color: aqua;
+  /* Specify the image path */
+  background-image: url("OIP.webp");
+
+  /* Prevent the image from repeating/tiling */
+  background-repeat: no-repeat;
+
+  /* Scale the image to cover the entire container/viewport */
+  background-size: cover;
+
+  /* Center the image */
+  background-position: center;
+
+  /* Keep the background fixed during scroll (optional) */
+  background-attachment: fixed;
+}
+.container {
+  width: 300%;
+  max-width: 350px; /* Adjust maximum width as needed */
+  aspect-ratio: 16 / 9; /* Keeps the video proportional on all screen sizes */
+  margin: auto;
+}
